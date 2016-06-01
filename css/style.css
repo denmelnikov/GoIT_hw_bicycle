@@ -13,7 +13,7 @@ a {
 .content{
     display: table;
     background-color: #ffffff;
-   /* width: 1060px;*/
+   /* width: 1060px; */
     height: 100%;
 /*    position: absolute;*/
     margin: 0 auto;
@@ -65,7 +65,7 @@ a {
 }
 
 .leftmenu:after {
-    content: ".";
+    content: "";
     display: block;
     height: 0;
     clear: both;
@@ -102,5 +102,15 @@ a {
     display: table-row;
     height: 40px;
     background-color: #e1e1e1;
-    color: #2c2c2c;    
+    color: #2c2c2c;
+    position: relative;
+/*    text-align: center;*/
+}
+
+.bottommenu div{
+    display: inline;
+    float: left;
+    position: relative;
+    top: 10px;
+    margin: 0px 50px 40px;
 }
