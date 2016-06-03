@@ -1,116 +1,95 @@
-
 html, body{
-    background-color: #f9f9f9;
-   /* width: 1366px;
-    height: 100%;*/
-    font-family: arial;
-}
-
-a {
-    color: #333333;
-}
-
-.content{
-    display: table;
-    background-color: #ffffff;
-   /* width: 1060px; */
+    width: 100%;
     height: 100%;
-/*    position: absolute;*/
-    margin: 0 auto;
+    background-color: #f9f9f9;
+    font-family: Arial;
+}
+
+.wrapper{
+    width: 90%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: auto;
+    display: table;
+}
+
+a{
+    text-decoration: none;
+}
+
+.inside{
+    margin: 50px;
 }
 
 .header{
-    margin: 0px 50px 40px;
-}
-
-.topmenu{
-    width: 960px;
-    height: 40px;
-    background-color: #575656;
-    color: #ffffff;
-    margin: 0px 50px 40px;
-}
-
-.box{
-    white-space: nowrap;
-/*    text-align: center;*/
     
 }
 
-.box div{
+.logo{
+    margin-bottom: 40px;
+}
+
+.menu{
     height: 40px;
+    background-image: linear-gradient(to top, #444343 0%, #5e5e5e 100%); 
+}
+
+.menu ul li{
     display: inline-block;
-    background-color: #575656;
+    color: #ffffff;
+    line-height: 29px;
+    margin: 10px;
+}
+
+.menu a{
     color: #ffffff;
 }
 
-.box div:first-child{
-    width: 145px;
+.container{
+    
 }
 
-.box div:nth-child(2){
-    width: 100px;
-}
-
-.box div:nth-child(3){
-    width: 150px;
-}
-
-.leftmenu {
-   /* height: 250px;
-    width: 240px;*/
+.left_menu{
     float: left;
-    display: table;
-    margin: 0px 50px 40px;
+    width: 15%;
+    border: 1px solid #c8c8c8;
 }
 
-.leftmenu:after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+.link{
+    background: #f9f9f9;
+    text-align: center;
 }
 
 
-.border{
-    border: 1px solid black;
-/*    height: 38px;*/
-    text-align: left;
-    content: "";
-    display: block;
-    padding-top: 10px;
-    padding-left: 25px;
+.left_menu a{
+    color: #656363;
 }
 
-.border:nth-child(3){
-    padding-left: 35px;
-    background-color: #f9f9f9;
-}
 
-.main{
-    display: table-row;
-    width: 680px;
-    height: 100%;
+.content{
     float: right;
-    padding-right: 40px;
-    
+    display: table-row;
+    width: 84%;
+}
+
+.text{
     
 }
 
-.bottommenu{
-    display: table-row;
+.footer{
+    clear: both;
     height: 40px;
     background-color: #e1e1e1;
-    color: #2c2c2c;
-    position: relative;
-/*    text-align: center;*/
 }
 
-.bottommenu div{
-    display: inline;
-    float: left;
-    position: relative;
-    top: 10px;
-    margin: 0px 50px 40px;
+.footer ul li{
+    display: inline-block; 
 }
+
+.footer span{
+    float: right;
+}
+.footer a{
+    color: #2c2c2c;
+}
+
