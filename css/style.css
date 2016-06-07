@@ -28,6 +28,8 @@ a{
 
 .inside{
     margin: 50px;
+    display: table-row;
+    height: 100%;
 }
 
 .header{
